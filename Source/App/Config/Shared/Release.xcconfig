@@ -1,0 +1,16 @@
+//
+//  Release.xcconfig
+//  FlyDelta
+//
+//  Created by Tyler Stromberg on 1/17/12.
+//  Copyright (c) 2012 Delta Air Lines. All rights reserved.
+//
+
+// ** Build Options **
+VALIDATE_PRODUCT = YES
+
+// ** Code Generation **
+GCC_OPTIMIZATION_LEVEL = s  // Optimize for space and size (Apple recommendation)
+
+// ** Language **
+OTHER_CFLAGS = -DNS_BLOCK_ASSERTIONS=1

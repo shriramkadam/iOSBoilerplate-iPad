@@ -1,0 +1,17 @@
+//
+//  Debug.xcconfig
+//  FlyDelta
+//
+//  Created by Tyler Stromberg on 1/17/12.
+//  Copyright (c) 2012 Delta Air Lines. All rights reserved.
+//
+
+// ** Deployment **
+COPY_PHASE_STRIP = NO  // Don't bother stripping symbols
+
+// ** Code Generation **
+GCC_OPTIMIZATION_LEVEL = 0  // No optimization
+GCC_SYMBOLS_PRIVATE_EXTERN = NO
+
+// ** Preprocessing **
+GCC_PREPROCESSOR_DEFINITIONS = DEBUG=1 $(inherited)

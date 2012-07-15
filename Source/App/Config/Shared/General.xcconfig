@@ -1,0 +1,34 @@
+//
+//  General.xcconfig
+//  FlyDelta
+//
+//  Created by Tyler Stromberg on 1/17/12.
+//  Copyright (c) 2012 Delta Air Lines. All rights reserved.
+//
+
+// ** Architectures **
+ARCHS = $(ARCHS_STANDARD_32_BIT)    // By default, use the standard architectures
+ARCHS[sdk=iphoneos*] = armv6 armv7  // Fix an issue with Xcode 4.2 not building armv6
+
+// ** Build Options **
+GCC_VERSION = com.apple.compilers.llvm.clang.1_0  // Use LLVM
+VALIDATE_PRODUCT = NO
+
+// ** Deployment **
+COPY_PHASE_STRIP = YES
+
+// ** Search Paths **
+ALWAYS_SEARCH_USER_PATHS = NO
+
+// ** Code Generation **
+GCC_DYNAMIC_NO_PIC = NO
+
+// ** Language **
+GCC_C_LANGUAGE_STANDARD = gnu99
+
+// ** Warnings **
+GCC_WARN_ABOUT_RETURN_TYPE = YES
+GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES
+GCC_WARN_ABOUT_MISSING_NEWLINE = YES
+CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES
+GCC_WARN_UNUSED_VARIABLE = YES

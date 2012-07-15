@@ -1,0 +1,21 @@
+//
+//  FlyDeltaTests.xcconfig
+//  FlyDelta
+//
+//  Created by Andy Roth on 1/25/12.
+//  Copyright (c) 2012 Delta Air Lines. All rights reserved.
+//
+
+// ** Deployment **
+IPHONEOS_DEPLOYMENT_TARGET = 5.0
+
+// ** Packaging **
+PRODUCT_NAME = $(TARGET_NAME)
+INFOPLIST_FILE = AppTests/Supporting Files/AppTests-Info.plist
+GCC_PREFIX_HEADER = FlyDelta-Prefix.pch
+GCC_PRECOMPILE_PREFIX_HEADER = YES
+
+BUNDLE_LOADER = $(BUILT_PRODUCTS_DIR)/App.app/App
+FRAMEWORK_SEARCH_PATHS = $(SDKROOT)/Developer/Library/Frameworks $(DEVELOPER_LIBRARY_DIR)/Frameworks
+TEST_HOST = $(BUNDLE_LOADER)
+WRAPPER_EXTENSION = octest

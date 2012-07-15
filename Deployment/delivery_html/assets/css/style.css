@@ -1,0 +1,167 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face { 
+	font-family: whitney; 
+	src: url('../fonts/WhitnBoo.otf'); 
+} 
+
+html {
+	/*
+	background: url(../assets/bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/bg.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/bg.jpg', sizingMethod='scale')";
+	*/
+}
+
+body {
+	margin:0;
+	padding:0;
+	font-family: whitney, arial, helvetica, sans-serif;
+	color:#333;
+	font-size: 36px;
+}
+
+h1 {
+	display:block;
+	width: 800px;
+	margin: 0 auto;
+	position: relative;
+	padding: 100px 0;
+	font-size:50px;
+	color:white;
+	font-weight:bold;
+}
+
+#bg { 
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	width: 100%;
+	height: 100%;
+}
+
+.bgwidth { 
+	width: 100%; 
+}
+
+.bgheight { 
+	height: 100%; 
+}
+
+img {
+	border: none;
+}
+
+#container {
+	min-width: 580px;
+}
+
+#logo {
+	/*position: absolute;
+	left: 65%;
+	margin: 0 auto;
+	*/
+	/*
+	position: fixed;
+	right: 15px;
+	top: 0;
+	margin: 0;
+	padding: 0;
+	*/
+	position: fixed;
+	left: 80%;
+	top: 0;
+	margin: 0;
+	padding: 0;
+}
+
+#logo img {
+	width:140px;
+}
+
+.arrow {
+	position: absolute;
+	top: 35px;
+	left: 71%;
+}
+
+.build-header {
+	width: 580px;
+	min-width: 580px;
+	padding: 77px 0 75px 0;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.build-head {
+	color: white;
+	font-size: 44px;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	font-weight: 100;
+	letter-spacing: 0.03em;	
+	display: block;
+}
+
+#listing div {
+	text-align: left;
+	border-bottom: 2px solid rgb(53, 81, 131); /*The Fallback */
+	border-bottom: 2px solid rgba(182,194,203,0.3);
+	position: relative;
+	min-width: 580px;
+	zoom: 1;
+}
+
+#listing div:hover{
+	background-color: #828282; /*The Fallback */
+	background-color: rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+
+#listing div:first-child {
+	border-top: 2px solid rgb(53, 81, 131); /*The Fallback */
+	border-top: 2px solid rgba(182,194,203,0.3);
+}
+
+a:link {
+	color: white;
+	text-decoration: none;
+	width: 100%;
+}
+
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+#listing a {
+	background:url(../images/arrow.png) no-repeat right;
+	display:block;
+	width: 800px;
+	margin: 0 auto;
+	position: relative;
+	font-size:0px;
+	padding: 30px 0;
+}
+
+#listing a strong {
+	position:relative;
+	bottom:1px;
+	font-size:40px;
+}
+
+.build-header, .panel p {
+	padding-left: 30px;
+}	
+
+.build-head, .panel p {	
+	filter: dropshadow(color=#3b3b3b, offx=0, offy=1); /*The Fallback */
+	text-shadow: 0px 1px 0px #3b3b3b;
+}
+

@@ -1,0 +1,9 @@
+//
+//  iOS.xcconfig
+//  FlyDelta
+//
+//  Created by Tyler Stromberg on 1/17/12.
+//  Copyright (c) 2012 Delta Air Lines. All rights reserved.
+//
+
+SDKROOT = iphoneos    // Use the latest SDK

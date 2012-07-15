@@ -1,0 +1,11 @@
+//
+//  DebugiOS.xcconfig
+//  FlyDelta
+//
+//  Created by Tyler Stromberg on 1/17/12.
+//  Copyright (c) 2012 Delta Air Lines. All rights reserved.
+//
+
+#include "General.xcconfig"
+#include "iOS.xcconfig"
+#include "Debug.xcconfig"

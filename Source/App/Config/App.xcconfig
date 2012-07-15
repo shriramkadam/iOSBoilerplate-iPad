@@ -1,0 +1,25 @@
+//
+//  FlyDelta.xcconfig
+//  FlyDelta
+//
+//  Created by Tyler Stromberg on 1/17/12.
+//  Copyright (c) 2012 Delta Air Lines. All rights reserved.
+//
+
+// ** Deployment **
+IPHONEOS_DEPLOYMENT_TARGET = 5.0
+
+// ** Packaging **
+INFOPLIST_FILE = Config/App-Info.plist
+PRODUCT_NAME = $(TARGET_NAME)
+WRAPPER_EXTENSION = app
+
+// ** Linking **
+OTHER_LDFLAGS = -ObjC
+
+// ** Search Paths **
+LIBRARY_SEARCH_PATHS = $(inherited) "$(SRCROOT)/../ZBar" "$(SRCROOT)/../Tracking"
+
+// ** Language **
+GCC_PRECOMPILE_PREFIX_HEADER = YES
+GCC_PREFIX_HEADER = FlyDelta-Prefix.pch
