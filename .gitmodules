@@ -1,3 +1,0 @@
-[submodule "Source/App/Libraries/AFNetworking"]
-	path = Source/App/Libraries/AFNetworking
-	url = git@github.com:toe/iOSBoilerplate-iPad.git
