@@ -1,9 +1,0 @@
-[submodule "AutoCoding"]
-	path = AutoCoding
-	url = https://github.com/nicklockwood/AutoCoding.git
-[submodule "BaseModel"]
-	path = BaseModel
-	url = https://github.com/nicklockwood/BaseModel.git
-[submodule "AFNetworking"]
-	path = AFNetworking
-	url = https://github.com/AFNetworking/AFNetworking.git
