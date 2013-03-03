@@ -1,0 +1,9 @@
+[submodule "Source/App/Libraries/AFNetworking"]
+	path = Source/App/Libraries/AFNetworking
+	url = https://github.com/AFNetworking/AFNetworking.git
+[submodule "Source/App/Libraries/AutoCoding"]
+	path = Source/App/Libraries/AutoCoding
+	url = https://github.com/nicklockwood/AutoCoding.git
+[submodule "Source/App/Libraries/BaseModel"]
+	path = Source/App/Libraries/BaseModel
+	url = https://github.com/nicklockwood/BaseModel.git
